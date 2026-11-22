@@ -3,4 +3,4 @@ services:
     name: btc-mtf-bot
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python btc_mtf_bot.py
+    startCommand: python main.py
