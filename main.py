@@ -41,3 +41,4 @@ while True:
             send_telegram(f"BTC moved {change:+.2f}%: ${last_alert_price:,.0f} -> ${price:,.0f}")
             last_alert_price = price
     time.sleep(60)
+        
